@@ -7,7 +7,7 @@ const SectionTitle = (props: props) => {
     return (
         <h1 className={
             `
-            text-5xl text-[${props.color}] font-bold
+            text-5xl ${props.color} font-bold
             text-center
             w-1/4 
             `

@@ -15,7 +15,7 @@ const ProjectsSection = () => {
                  bg-gradient-to-b from-[#0a192f] to-[#0a192f]
                  "
         >
-            <SectionTitle text={prj.Title} color="#ffffff"></SectionTitle>
+            <SectionTitle text={prj.Title} color="text-white"></SectionTitle>
             <div className='
             flex flex-row justify-center items-center
             '>

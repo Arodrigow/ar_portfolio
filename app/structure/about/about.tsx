@@ -10,7 +10,7 @@ const AboutSection = () => {
          bg-white
          "
         >
-            <SectionTitle text={ab.Title} color="#0a192f"></SectionTitle>
+            <SectionTitle text={ab.Title} color="text-[#0a192f]"></SectionTitle>
             <span className="w-3/4">{ab.Content1}</span>
         </section>
     );

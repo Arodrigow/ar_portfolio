@@ -9,15 +9,16 @@ const ProjectsSection = () => {
 
     return (
         <section id="projects" className="
-                 flex flex-col justify-center items-center 
-                 h-[calc(100vh-48px)] w-full 
+                 flex flex-col justify-center items-center
+                 min-h-[calc(100vh-48px)] w-full 
                  px-40 gap-20
-                 bg-gradient-to-b from-[#0a192f] to-[#0a192f]
+                 bg-gradient-to-b from-primaryLight to-primary
                  "
         >
-            <SectionTitle text={prj.Title} color="text-white"></SectionTitle>
+            <SectionTitle text={prj.Title} color="text-secondary"></SectionTitle>
             <div className='
-            flex flex-row justify-center items-center
+            flex flex-row justify-center items-center flex-wrap
+            gap-10
             '>
                 {
                     data.map(

@@ -7,10 +7,10 @@ const AboutSection = () => {
          flex flex-row justify-center items-center 
          h-[calc(100vh-48px)] w-full 
          px-40 gap-20
-         bg-white
+         bg-secondary
          "
         >
-            <SectionTitle text={ab.Title} color="text-[#0a192f]"></SectionTitle>
+            <SectionTitle text={ab.Title} color="text-primary"></SectionTitle>
             <span className="w-3/4">{ab.Content1}</span>
         </section>
     );

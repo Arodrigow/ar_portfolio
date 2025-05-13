@@ -1,0 +1,4 @@
+export const About = {
+    Title: "Um pouco sobre mim:",
+    Content1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida est eget ligula eleifend, non congue tortor varius. Aenean in hendrerit nisi. Integer lobortis, eros non mollis accumsan, lectus lectus euismod diam, sit amet commodo nulla justo sit amet turpis. Nam ornare pulvinar massa vitae commodo. Fusce tincidunt lacus at tortor consectetur, non fringilla augue convallis. Curabitur eget dapibus ipsum. Praesent consequat elementum sem. Aliquam convallis metus malesuada lobortis lacinia. Donec aliquam felis magna, vitae tempor erat semper id. Quisque porttitor nisl id mi cursus tincidunt.",
+}

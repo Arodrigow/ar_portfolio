@@ -1,12 +1,18 @@
+import Hero from "./structure/hero/hero";
+import Navbar from "./structure/navbar/navbar";
+
 export default function Home() {
   return (
-    //Nav
-    //Hero
+    //Nav - Done
+    //Hero - Estrutura feita, falta estilizar
     //About
     //Projects
     //Skills
     //Contact
     //Footer
-    <div className="h-[200vh]"></div>
+    <div className="flex flex-col bg-[#0a192f]">
+      <Hero></Hero>
+      <Navbar></Navbar>
+    </div>
   );
 }

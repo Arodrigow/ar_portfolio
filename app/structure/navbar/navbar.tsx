@@ -3,9 +3,9 @@ import NavLogo from "./logo";
 
 const Navbar = () => {
     const topics = ['Início', 'Sobre', 'Projetos', 'Habilidades', 'Contato']
-    return <nav className="flex flex-row justify-between sticky top-0">
+    return <nav className="flex flex-row justify-between items-center sticky top-0 h-[48px] border">
         <NavLogo></NavLogo>
-        <div className="flex flex-row gap-2">
+        <div className="flex flex-row gap-2 bg-[#0a192f]">
             {
                 topics.map(
                     (topic, index) =>

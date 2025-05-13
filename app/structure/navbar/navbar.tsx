@@ -1,0 +1,19 @@
+import NavButton from "./button";
+import NavLogo from "./logo";
+
+const Navbar = () => {
+    const topics = ['Início', 'Sobre', 'Projetos', 'Habilidades', 'Contato']
+    return <nav className="flex flex-row justify-between sticky top-0">
+        <NavLogo></NavLogo>
+        <div className="flex flex-row gap-2">
+            {
+                topics.map(
+                    (topic, index) =>
+                        <NavButton key={"NavButton" + index} name={topic} ></NavButton>
+                )
+            }
+        </div>
+    </nav>
+}
+
+export default Navbar;

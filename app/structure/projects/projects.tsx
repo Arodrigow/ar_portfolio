@@ -5,8 +5,6 @@ import ProjectCard from '../project_card';
 
 const ProjectsSection = () => {
 
-
-
     return (
         <section id="projects" className="
                  flex flex-col justify-center items-center

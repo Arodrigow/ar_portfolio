@@ -22,7 +22,7 @@ const SkillsSection = () => {
         ">
                 {
                     data.map((skill, index) => (
-                        <SkillsCard alt={skill.alt} image={skill.image} level={skill.nivel} title={skill.title} key={"Skill"+index}></SkillsCard>
+                        <SkillsCard alt={skill.alt} image={skill.image} title={skill.title} key={"Skill"+index}></SkillsCard>
                 ))
                 }
             </div>
